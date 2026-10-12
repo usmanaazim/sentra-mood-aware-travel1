@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+# environment
+.env
+.env.local
+.env.*.local
+# local database (never commit user data)
+server/data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+# build output
+client/dist/
+dist/
+build/
+# logs / editor / os
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+coverage/
